@@ -166,4 +166,4 @@ def grade():
 # start the server using the run() method
 if __name__ == "__main__":
      app.secret_key = "!mzo53678912489"
-     app.run(debug=True,host='0.0.0.0', port=3000)
+     app.run(debug=True,host='0.0.0.0', port=2000)
