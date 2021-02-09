@@ -1,2 +1,2 @@
 # intro_flask
-Introduction to flask CMS framework
+Introduction to flask CMV framework
