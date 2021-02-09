@@ -23,7 +23,8 @@ def home():
         return render_template('loginnew.html')
     else:
         return render_template('home.html')
- 
+
+# login controller
 @app.route('/login', methods=['POST'])
 def dologin():
     if checklogin(request.form['nomatrik'],request.form['password']):
