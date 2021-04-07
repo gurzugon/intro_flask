@@ -164,6 +164,7 @@ def grade():
     rows=list_grade()
     return render_template('list_grade.html', rows=rows)
 
+
 # start the server using the run() method
 if __name__ == "__main__":
      app.secret_key = "!mzo53678912489"
