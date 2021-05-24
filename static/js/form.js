@@ -2,6 +2,7 @@ $(function() {
      $('form').on('submit', function(event) {
            $.post('/process',
                   {
+                
                     mass : $('#mass').val(),
                     velocity : $('#velocity').val()
                    },
