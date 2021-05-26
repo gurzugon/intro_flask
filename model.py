@@ -74,7 +74,7 @@ def checklogin(nomatrik,password):
     result=db.execute(qry,(nomatrik,password)).fetchone()
     return(result)
 
-# helper function
+# helper functions
 
 def login_required(f):
   @wraps(f)
